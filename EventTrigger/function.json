@@ -1,0 +1,21 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "authenticationEventTrigger",
+      "eventType": "onTokenIssuanceStart",
+      "apiSchemaVersion": "tokenIssuanceStart_preview_10_01_2021",
+      "tenantId": "00465006-adbe-4e40-b585-42a83dfbfdc9",
+      "audienceAppId": "0c539a4f-120d-49ce-bccb-dd6e468683ce",
+      "openIdConnectHost": "https://login.microsoftonline.com",
+      "tokenSchemaVersion": "ver2",
+      "name": "onTokenIssuanceStartRequest",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}
